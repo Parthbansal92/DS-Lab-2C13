@@ -1,2 +1,9 @@
-# DS-Lab-2C13
-Solutions and Implementations of Data Structures and Algorithms in C++ for college assignments and practice.
+## DSA Assignment
+
+- ques_1.cpp → array menu (create, display, insert, delete, search)
+- ques_2.cpp → remove same numbers
+- ques_3.c → predict output question
+- que_4_a.cpp → reverse array
+- ques_4_b.cpp → matrix multiply
+- ques_4.c.cpp → transpose
+- ques_5.cpp → row col sum
