@@ -4,16 +4,16 @@ using namespace std;
 
 string reverseString(string str) {
     stack<char> s;
-    for (char ch : str)
-        s.push(ch);
-
-    string reversed;
-    while (!s.empty()) {
-        reversed += s.top();
-        s.pop();
+    for (int i=0;i<str.size();i++){
+        s.push(str[i]);
     }
-
-    return reversed;
+    int i=0;
+    while (!s.empty()) {
+       str[i]=s.top();
+        i++;
+       s.pop();
+    }
+    return str;
 }
 
 int main() {
@@ -21,4 +21,5 @@ int main() {
     cout << "Original string: " << str << endl;
     cout << "Reversed string: " << reverseString(str) << endl;
     return 0;
+
 }
