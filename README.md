@@ -3,7 +3,7 @@
 This repository contains Data Structures Lab assignments & practice problems implemented in C++.
 It covers fundamental data structures and algorithms with simple, modular, and well-documented code.
 
-📘 Topics Covered
+Topics Covered
 
 Arrays (searching, sorting, inversions, matrix operations)
 
